@@ -23,13 +23,16 @@ Due to the large amount of data on the libimseti dataset, we didn't include in t
 **`user_ratings_df` -** Dataframe generated from `user_ratings`. Removed value label.
 
 **`predicted_ratings` -** Predicted ratings matrix.
+
 **`recommendations` -** Recommendations array with tuple of (`profile_id`, `predicted_rating`)
 
 ## Current progress
 
 - [x] Toy example with mapped info, `"Gender"`, `"Name"`
 - [x] Implemented profile-based (item-based) CF recommender system, with KNN neighbor algorithm using cosine similarity.
-- [ ] Predicted score on `predict_rating_with_neighbor_correlations` is incorrect
+- [x] Fix predicted score on `predict_rating_with_neighbor_correlations`
+- [ ] Normalize user rating (User bias)
 - [ ] Fix: Now assuming if user did not vote -> dislike
 - [ ] Try jasscard similarity to predict rating
+- [ ] Split training set and test set
 - [ ] Support recommendation for large dataset
