@@ -31,8 +31,9 @@ Due to the large amount of data on the libimseti dataset, we didn't include in t
 - [x] Toy example with mapped info, `"Gender"`, `"Name"`
 - [x] Implemented profile-based (item-based) CF recommender system, with KNN neighbor algorithm using cosine similarity.
 - [x] Fix predicted score on `predict_rating_with_neighbor_correlations`
-- [ ] Normalize user rating (User bias)
-- [ ] Fix: Now assuming if user did not vote -> dislike
-- [ ] Try jasscard similarity to predict rating
-- [ ] Split training set and test set
-- [ ] Support recommendation for large dataset
+- [x] Fix: Now assuming if user did not vote -> dislike (Different approach in cosine and jaccard)
+- [x] Support recommendation for large dataset
+- [x] Try jasscard similarity to predict rating
+- [ ] Training data and test data split is incorrect
+- [x] Turn item-based into user-based
+- [ ] Confusion matrix
