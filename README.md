@@ -36,4 +36,6 @@ Due to the large amount of data on the libimseti dataset, we didn't include in t
 - [x] Try jasscard similarity to predict rating
 - [x] Fix training data and test data split is incorrect
 - [x] Turn item-based into user-based
-- [ ] Confusion matrix
+- [x] Confusion matrix
+- [ ] Score calculation not correct
+- [ ] Jaccard prediction incorrect for test set
