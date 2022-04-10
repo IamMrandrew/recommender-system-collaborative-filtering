@@ -34,6 +34,6 @@ Due to the large amount of data on the libimseti dataset, we didn't include in t
 - [x] Fix: Now assuming if user did not vote -> dislike (Different approach in cosine and jaccard)
 - [x] Support recommendation for large dataset
 - [x] Try jasscard similarity to predict rating
-- [ ] Training data and test data split is incorrect
+- [x] Fix training data and test data split is incorrect
 - [x] Turn item-based into user-based
 - [ ] Confusion matrix
